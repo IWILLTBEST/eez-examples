@@ -7,7 +7,7 @@
       "lvglVersion": "9.4.0",
       "displayWidth": 480,
       "displayHeight": 320,
-      "description": "Examples of the TileView widget (LVGL 9.x)",
+      "description": "TileView widget example (LVGL 9.x), replicating the official LVGL tileview example: L-shaped navigation with a label tile, a button tile and a full-tile list that chain-scrolls the tile view.",
       "keywords": "tileview, tile",
       "image": "data:image/png;base64,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"
     },
@@ -118,24 +118,13 @@
           "type": "LVGLScreenWidget",
           "children": [
             {
-              "type": "LVGLLabelWidget",
-              "left": 16,
-              "top": 10,
-              "width": 448,
-              "height": 18,
-              "text": "TileView widget examples",
-              "textType": "literal",
-              "longMode": "WRAP",
-              "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE"
-            },
-            {
               "type": "LVGLTileViewWidget",
-              "left": 16,
-              "top": 34,
-              "width": 448,
-              "height": 272,
+              "left": 0,
+              "top": 0,
+              "width": 480,
+              "height": 320,
               "widgetFlags": "CLICKABLE|CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE|SCROLL_ONE",
-              "identifier": "tiles",
+              "identifier": "tv",
               "children": [
                 {
                   "type": "LVGLTileWidget",
@@ -143,24 +132,33 @@
                   "top": 0,
                   "width": 200,
                   "height": 200,
+                  "widgetFlags": "SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER",
                   "column": 0,
                   "row": 0,
-                  "direction": "ALL",
+                  "direction": "BOTTOM",
+                  "identifier": "tile1",
                   "children": [
                     {
                       "type": "LVGLLabelWidget",
-                      "left": 10,
-                      "top": 10,
-                      "width": 240,
-                      "height": 24,
-                      "text": "Home",
+                      "left": 0,
+                      "top": 0,
+                      "width": 0,
+                      "height": 0,
+                      "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE",
+                      "text": "Scroll down",
                       "textType": "literal",
                       "longMode": "WRAP",
-                      "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE"
+                      "localStyles": {
+                        "definition": {
+                          "MAIN": {
+                            "DEFAULT": {
+                              "align": "CENTER"
+                            }
+                          }
+                        }
+                      }
                     }
-                  ],
-                  "identifier": "tile_home",
-                  "widgetFlags": "SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER"
+                  ]
                 },
                 {
                   "type": "LVGLTileWidget",
@@ -168,49 +166,55 @@
                   "top": 0,
                   "width": 200,
                   "height": 200,
-                  "column": 1,
-                  "row": 0,
-                  "direction": "ALL",
-                  "children": [
-                    {
-                      "type": "LVGLLabelWidget",
-                      "left": 10,
-                      "top": 10,
-                      "width": 240,
-                      "height": 24,
-                      "text": "Data",
-                      "textType": "literal",
-                      "longMode": "WRAP",
-                      "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE"
-                    }
-                  ],
-                  "identifier": "tile_data",
-                  "widgetFlags": "SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER"
-                },
-                {
-                  "type": "LVGLTileWidget",
-                  "left": 0,
-                  "top": 0,
-                  "width": 200,
-                  "height": 200,
+                  "widgetFlags": "SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER",
                   "column": 0,
                   "row": 1,
                   "direction": "ALL",
+                  "identifier": "tile2",
                   "children": [
                     {
-                      "type": "LVGLLabelWidget",
-                      "left": 10,
-                      "top": 10,
-                      "width": 240,
-                      "height": 24,
-                      "text": "Settings",
-                      "textType": "literal",
-                      "longMode": "WRAP",
-                      "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE"
+                      "type": "LVGLButtonWidget",
+                      "left": 0,
+                      "top": 0,
+                      "width": 0,
+                      "height": 0,
+                      "widthUnit": "content",
+                      "heightUnit": "content",
+                      "widgetFlags": "CLICKABLE|CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_ON_FOCUS|SCROLL_WITH_ARROW|SNAPPABLE",
+                      "identifier": "btn",
+                      "children": [
+                        {
+                          "type": "LVGLLabelWidget",
+                          "left": 0,
+                          "top": 0,
+                          "width": 0,
+                          "height": 0,
+                          "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE",
+                          "text": "Scroll up or right",
+                          "textType": "literal",
+                          "longMode": "WRAP",
+                          "localStyles": {
+                            "definition": {
+                              "MAIN": {
+                                "DEFAULT": {
+                                  "align": "CENTER"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "localStyles": {
+                        "definition": {
+                          "MAIN": {
+                            "DEFAULT": {
+                              "align": "CENTER"
+                            }
+                          }
+                        }
+                      }
                     }
-                  ],
-                  "identifier": "tile_settings",
-                  "widgetFlags": "SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER"
+                  ]
                 },
                 {
                   "type": "LVGLTileWidget",
@@ -218,24 +222,84 @@
                   "top": 0,
                   "width": 200,
                   "height": 200,
+                  "widgetFlags": "SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER",
                   "column": 1,
                   "row": 1,
-                  "direction": "ALL",
+                  "direction": "LEFT",
+                  "identifier": "tile3",
                   "children": [
                     {
-                      "type": "LVGLLabelWidget",
-                      "left": 10,
-                      "top": 10,
-                      "width": 240,
-                      "height": 24,
-                      "text": "About",
-                      "textType": "literal",
-                      "longMode": "WRAP",
-                      "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE"
+                      "type": "LVGLListWidget",
+                      "left": 0,
+                      "top": 0,
+                      "width": 480,
+                      "height": 320,
+                      "widgetFlags": "CLICKABLE|CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE",
+                      "identifier": "list",
+                      "entries": [
+                        {
+                          "entryType": "button",
+                          "text": "One",
+                          "textType": "literal",
+                          "iconType": "none"
+                        },
+                        {
+                          "entryType": "button",
+                          "text": "Two",
+                          "textType": "literal",
+                          "iconType": "none"
+                        },
+                        {
+                          "entryType": "button",
+                          "text": "Three",
+                          "textType": "literal",
+                          "iconType": "none"
+                        },
+                        {
+                          "entryType": "button",
+                          "text": "Four",
+                          "textType": "literal",
+                          "iconType": "none"
+                        },
+                        {
+                          "entryType": "button",
+                          "text": "Five",
+                          "textType": "literal",
+                          "iconType": "none"
+                        },
+                        {
+                          "entryType": "button",
+                          "text": "Six",
+                          "textType": "literal",
+                          "iconType": "none"
+                        },
+                        {
+                          "entryType": "button",
+                          "text": "Seven",
+                          "textType": "literal",
+                          "iconType": "none"
+                        },
+                        {
+                          "entryType": "button",
+                          "text": "Eight",
+                          "textType": "literal",
+                          "iconType": "none"
+                        },
+                        {
+                          "entryType": "button",
+                          "text": "Nine",
+                          "textType": "literal",
+                          "iconType": "none"
+                        },
+                        {
+                          "entryType": "button",
+                          "text": "Ten",
+                          "textType": "literal",
+                          "iconType": "none"
+                        }
+                      ]
                     }
-                  ],
-                  "identifier": "tile_about",
-                  "widgetFlags": "SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER"
+                  ]
                 }
               ]
             }
