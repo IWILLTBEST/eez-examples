@@ -124,7 +124,9 @@
               "width": 448,
               "height": 18,
               "text": "TileView widget examples",
-              "textType": "literal"
+              "textType": "literal",
+              "longMode": "WRAP",
+              "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE"
             },
             {
               "type": "LVGLTileViewWidget",
@@ -143,7 +145,7 @@
                   "height": 200,
                   "column": 0,
                   "row": 0,
-                  "direction": "RIGHT",
+                  "direction": "ALL",
                   "children": [
                     {
                       "type": "LVGLLabelWidget",
@@ -152,10 +154,13 @@
                       "width": 240,
                       "height": 24,
                       "text": "Home",
-                      "textType": "literal"
+                      "textType": "literal",
+                      "longMode": "WRAP",
+                      "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE"
                     }
                   ],
-                  "identifier": "tile_home"
+                  "identifier": "tile_home",
+                  "widgetFlags": "SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER"
                 },
                 {
                   "type": "LVGLTileWidget",
@@ -165,7 +170,7 @@
                   "height": 200,
                   "column": 1,
                   "row": 0,
-                  "direction": "RIGHT",
+                  "direction": "ALL",
                   "children": [
                     {
                       "type": "LVGLLabelWidget",
@@ -174,10 +179,13 @@
                       "width": 240,
                       "height": 24,
                       "text": "Data",
-                      "textType": "literal"
+                      "textType": "literal",
+                      "longMode": "WRAP",
+                      "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE"
                     }
                   ],
-                  "identifier": "tile_data"
+                  "identifier": "tile_data",
+                  "widgetFlags": "SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER"
                 },
                 {
                   "type": "LVGLTileWidget",
@@ -187,7 +195,7 @@
                   "height": 200,
                   "column": 0,
                   "row": 1,
-                  "direction": "RIGHT",
+                  "direction": "ALL",
                   "children": [
                     {
                       "type": "LVGLLabelWidget",
@@ -196,10 +204,13 @@
                       "width": 240,
                       "height": 24,
                       "text": "Settings",
-                      "textType": "literal"
+                      "textType": "literal",
+                      "longMode": "WRAP",
+                      "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE"
                     }
                   ],
-                  "identifier": "tile_settings"
+                  "identifier": "tile_settings",
+                  "widgetFlags": "SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER"
                 },
                 {
                   "type": "LVGLTileWidget",
@@ -209,7 +220,7 @@
                   "height": 200,
                   "column": 1,
                   "row": 1,
-                  "direction": "RIGHT",
+                  "direction": "ALL",
                   "children": [
                     {
                       "type": "LVGLLabelWidget",
@@ -218,10 +229,13 @@
                       "width": 240,
                       "height": 24,
                       "text": "About",
-                      "textType": "literal"
+                      "textType": "literal",
+                      "longMode": "WRAP",
+                      "widgetFlags": "CLICK_FOCUSABLE|GESTURE_BUBBLE|PRESS_LOCK|SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER|SCROLL_ELASTIC|SCROLL_MOMENTUM|SCROLL_WITH_ARROW|SNAPPABLE"
                     }
                   ],
-                  "identifier": "tile_about"
+                  "identifier": "tile_about",
+                  "widgetFlags": "SCROLLABLE|SCROLL_CHAIN_HOR|SCROLL_CHAIN_VER"
                 }
               ]
             }

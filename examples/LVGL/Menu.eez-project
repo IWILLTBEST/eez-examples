@@ -124,7 +124,8 @@
               "width": 448,
               "height": 18,
               "text": "Menu widget examples",
-              "textType": "literal"
+              "textType": "literal",
+              "longMode": "WRAP"
             },
             {
               "type": "LVGLMenuWidget",
@@ -157,7 +158,8 @@
                           "width": 240,
                           "height": 24,
                           "text": "Brightness",
-                          "textType": "literal"
+                          "textType": "literal",
+                          "longMode": "WRAP"
                         },
                         {
                           "type": "LVGLLabelWidget",
@@ -166,7 +168,8 @@
                           "width": 240,
                           "height": 24,
                           "text": "Volume",
-                          "textType": "literal"
+                          "textType": "literal",
+                          "longMode": "WRAP"
                         }
                       ]
                     },
@@ -184,7 +187,8 @@
                           "width": 240,
                           "height": 24,
                           "text": "Language",
-                          "textType": "literal"
+                          "textType": "literal",
+                          "longMode": "WRAP"
                         },
                         {
                           "type": "LVGLLabelWidget",
@@ -193,7 +197,8 @@
                           "width": 240,
                           "height": 24,
                           "text": "Time format",
-                          "textType": "literal"
+                          "textType": "literal",
+                          "longMode": "WRAP"
                         }
                       ]
                     }
@@ -221,7 +226,8 @@
                           "width": 240,
                           "height": 24,
                           "text": "Version 1.0.0",
-                          "textType": "literal"
+                          "textType": "literal",
+                          "longMode": "WRAP"
                         },
                         {
                           "type": "LVGLLabelWidget",
@@ -230,7 +236,8 @@
                           "width": 240,
                           "height": 24,
                           "text": "Build 2026-09",
-                          "textType": "literal"
+                          "textType": "literal",
+                          "longMode": "WRAP"
                         }
                       ]
                     }
