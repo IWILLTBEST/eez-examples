@@ -5,7 +5,7 @@ import * as path from "path";
 var request = require("request-promise-native");
 
 const EEZ_PROJECT_EXAMPLES_REPOSITORY =
-    "https://github.com/eez-open/eez-project-examples";
+    "https://github.com/IWILLTBEST/eez-examples";
 
 interface ExampleProject {
     repository: string;
